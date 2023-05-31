@@ -23,7 +23,7 @@ namespace lab2_6
             {
                 b = false;
             }
-            else if (int.Parse(line[4]) > currentYear)
+            else if (int.Parse(line[4]) > currentYear || int.Parse(line[4]) < 0)
             {
                 b = false;
             }
